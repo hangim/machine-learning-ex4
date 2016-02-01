@@ -98,6 +98,7 @@ Theta2_grad = Theta2_grad / m;
 Theta1_grad = Theta1_grad / m;
 
 Theta2_tmp = Theta2;
+Theta1_tmp = Theta1;
 Theta2_tmp(:, 1) = 0;
 Theta1_tmp(:, 1) = 0;
 Theta2_grad = Theta2_grad + lambda / m * Theta2_tmp;
